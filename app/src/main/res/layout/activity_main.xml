@@ -21,7 +21,7 @@
         android:textSize="15sp"
         android:background="#69F0AE"
         android:textAllCaps="false"
-        android:onClick="addStudent"
+        android:onClick="addStudentDialog"
         android:padding="5dp"
         android:layout_alignParentRight="true"/>
     <androidx.recyclerview.widget.RecyclerView

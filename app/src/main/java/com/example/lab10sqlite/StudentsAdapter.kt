@@ -40,7 +40,7 @@ class StudentsAdapter(val items:List<Student>, val context: Context):
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val binding = holder.binding
         binding.textId.text = "ID: " + items[position].id
-        binding.textName.text = items[position].name
+        binding.textName.text = "Name: " +items[position].name
         binding.textAge.text = "Age: " +items[position].age.toString()
     }
 
